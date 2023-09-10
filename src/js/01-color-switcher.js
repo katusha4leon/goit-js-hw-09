@@ -4,7 +4,7 @@ const refs = {
 }
 
 refs.stopBtn.setAttribute("disabled", "");
-// let timerId = null;
+let timerId = null;
 
 refs.startBtn.addEventListener("click", onStartBtnClick);
 

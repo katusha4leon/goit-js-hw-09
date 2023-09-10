@@ -17,6 +17,12 @@ img {
   max-width: 100%;
 }
 
+.switcher {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .timer {
   display: flex;
   justify-content: center;
