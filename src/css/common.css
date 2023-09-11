@@ -18,9 +18,20 @@ img {
 }
 
 .switcher {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.switcher-btn {
+  position: relative;
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .timer {
